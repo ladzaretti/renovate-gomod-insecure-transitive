@@ -1,11 +1,4 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "osvVulnerabilityAlerts": true,
-  "packageRules": [{
-    "matchManagers": ["gomod"],
-    "matchDepTypes": ["indirect"],
-    "enabled": true
-  }]
+  "dependencyDashboard": true,
+  "lockFileMaintenance": { "enabled": true }
 }
